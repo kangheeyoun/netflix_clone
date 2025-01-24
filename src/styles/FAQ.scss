@@ -1,8 +1,37 @@
 .faq{
     @include component_size;
 }
-.faq > .faq-list > button{
-    width: 300px;
-    height: 150px;
-    background-color: gray
+.faq-list{
+    li{
+        margin: 5px;
+        button{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            text-align: left;
+            padding: 20px;
+            font-size: $font-size-medium;
+            background-color: rgb(61, 61, 61);
+            color: white;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(99, 99, 99);
+            }
+        }
+        p{
+            height: 0;
+            opacity: 0;
+            margin-top: 3px;
+            font-size: $font-size-medium;
+            padding: 3px;
+            background-color: rgb(61, 61, 61);
+            transition: 0.3s;
+        }
+        p.open{
+            padding: 10px;
+            height: 150px;
+            padding: 30px;
+            opacity: 1;
+        }
+    }
 }
