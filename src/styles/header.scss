@@ -6,9 +6,9 @@ header{
 }
 
 nav{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     @include responsive($breakpoint-medium){
@@ -16,11 +16,12 @@ nav{
     }
     h1{
         color: $primary-color;
-        font-size: $font-size-large;
+        font-size: 50px;
     }
     div{
         select{
-            padding: 0.4rem 1rem;
+            border-radius: 5px;
+            padding: 0.5rem 1.7rem;
             margin-right: 10px;
             background-color: transparent;
             color: $text-color;

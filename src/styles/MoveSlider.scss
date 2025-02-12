@@ -8,16 +8,16 @@
     }
     .slick_prev,
     .slick_next{
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(46, 45, 45, 0.7);
         border-radius: 10px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         z-index: 10;
-        width: 40px;
-        height: 70px;
+        width: 30px;
+        height: 100px;
         text-align: center;
-        line-height: 70px;
+        line-height: 100px;
         cursor: pointer;
         color: #fff;
         &:hover{
@@ -56,8 +56,8 @@
     
     img{
         width: 90%;
-        margin: 0 auto;
-        height: 400px;
+        margin: 22px;
+        height: 300px;
         object-fit: cover;
         border-radius: 10px;
     }

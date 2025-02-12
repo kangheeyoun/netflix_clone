@@ -15,4 +15,24 @@ footer{
             grid-template-columns: repeat(1,1fr);
         }
     }
+    select{
+        border-radius: 5px;
+        padding: 0.5rem 1.7rem;
+        margin: 50px auto;
+        background-color: transparent;
+        color: $text-color;
+        option{
+            background-color: #fff;
+            color: #000;
+        }
+    }
+    .ko{
+        margin-bottom: 50px;
+    }
+    .information{
+    margin-bottom: 40px;
+        p, a{
+            font-size: 13px;
+        }
+}
 }
